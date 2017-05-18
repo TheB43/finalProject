@@ -1,0 +1,6 @@
+#Greenfoot properties
+#Thu May 18 10:10:40 PDT 2017
+version=2.5.0
+project.charset=UTF-8
+class.IntroScreen.superclass=greenfoot.World
+class.Menu.superclass=greenfoot.Actor
