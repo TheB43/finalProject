@@ -22,7 +22,7 @@ public class IntroScreen extends World
     }
     public void act() {
         MouseInfo mouse = Greenfoot.getMouseInfo();
-        if (mouse != null){    
+        if (mouse != null) {
             int x = mouse.getX();
             int y = mouse.getY();
         }
