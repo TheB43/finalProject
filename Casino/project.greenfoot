@@ -1,9 +1,10 @@
 #Greenfoot properties
-#Thu May 18 11:02:06 PDT 2017
+#Fri May 19 10:18:44 PDT 2017
 target3.editor.y=20
 target3.editor.x=40
 target2.name=mainMenu
 target2.naviview.expanded=true
+simulation.speed=50
 class.mainMenu.superclass=greenfoot.World
 target2.editor.height=700
 dependency1.from=IntroScreen
@@ -20,6 +21,7 @@ target1.height=50
 target1.y=10
 target2.height=50
 target1.x=70
+class.scoreCounter.superclass=greenfoot.Actor
 target1.naviview.expanded=true
 class.Menu.superclass=greenfoot.Actor
 dependency1.to=mainMenu
@@ -29,15 +31,15 @@ target1.showInterface=false
 target1.name=IntroScreen
 target3.name=Menu
 target3.editor.width=900
-mainWindow.width=1403
-target1.editor.y=111
-target1.editor.x=904
+mainWindow.width=1099
+target1.editor.y=346
+target1.editor.x=439
 target3.naviview.expanded=true
 target2.width=80
-mainWindow.height=812
+mainWindow.height=764
 target1.width=90
-mainWindow.y=149
-mainWindow.x=253
+mainWindow.y=0
+mainWindow.x=284
 target3.width=80
 class.IntroScreen.superclass=greenfoot.World
 target3.editor.height=700
