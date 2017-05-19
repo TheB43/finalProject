@@ -1,11 +1,12 @@
 #Greenfoot properties
-#Fri May 19 10:27:14 PDT 2017
+#Fri May 19 10:59:14 PDT 2017
 target3.editor.y=20
 target3.editor.x=40
 target2.name=mainMenu
 target2.naviview.expanded=true
 class.mainMenu.superclass=greenfoot.World
 target2.editor.height=700
+class.oldMaid.superclass=greenfoot.World
 dependency1.from=IntroScreen
 target2.showInterface=false
 target1.editor.width=900
@@ -20,9 +21,11 @@ target1.height=50
 target1.y=10
 target2.height=50
 target1.x=70
+class.goFish.image=Casino-playtable.png
 target1.naviview.expanded=true
 class.Menu.superclass=greenfoot.Actor
 dependency1.to=mainMenu
+class.oldMaid.image=Casino-playtable.png
 target1.editor.height=700
 target3.height=50
 target1.showInterface=false
@@ -34,16 +37,20 @@ target1.editor.y=100
 target1.editor.x=846
 target3.naviview.expanded=true
 target2.width=80
+class.goFish.superclass=greenfoot.World
 mainWindow.y=149
 target1.width=90
 mainWindow.height=812
+class.Stats.superclass=greenfoot.Actor
 target3.width=80
 mainWindow.x=253
 class.IntroScreen.superclass=greenfoot.World
 target3.editor.height=700
 target3.showInterface=false
 target2.type=ClassTarget
+class.War.image=Casino-playtable.png
 world.lastInstantiated=IntroScreen
+class.War.superclass=greenfoot.World
 dependency1.type=UsesDependency
 target2.editor.y=20
 version=2.5.0

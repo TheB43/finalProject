@@ -35,15 +35,21 @@ public class mainMenu extends World
                     BLACKJACK.startBJ();
                 }
                 else if (y > 330 && y < 490) {
-                    //run Old Maid
+                    oldMaid OLDMAID = new oldMaid();
+                    Greenfoot.setWorld(OLDMAID);
+                    OLDMAID.startOM();
                 }
             }
             else if (x > 240 && x < 384) {
                 if (y > 150 && y < 310) {
-                    //run GoFish
+                    goFish GOFISH = new goFish();
+                    Greenfoot.setWorld(GOFISH);
+                    GOFISH.startGF();
                 }
                 else if (y > 330 && y < 490) {
-                    //run War
+                    War WAR = new War();
+                    Greenfoot.setWorld(WAR);
+                    WAR.startWar();
                 }
             }
         }
