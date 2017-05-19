@@ -22,9 +22,11 @@ public class IntroScreen extends World
     }
     public void act() {
         MouseInfo mouse = Greenfoot.getMouseInfo();
-        int x = mouse.getX();
-        int y = mouse.getY();
-        if(Greenfoot.mouseClicked(true)) {
+        if (mouse != null){    
+            int x = mouse.getX();
+            int y = mouse.getY();
+        }
+        if(Greenfoot.mouseClicked(null)) {
             mainMenu MAIN = new mainMenu();
             Greenfoot.setWorld(MAIN);
             MAIN.startMenu();
